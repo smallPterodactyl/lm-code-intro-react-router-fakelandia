@@ -1,16 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Route } from 'react-router-dom';
-import { JusticeRouter } from './routes/fl-justice-router';
+import { BrowserRouter } from 'react-router-dom';
+import { JusticeRouter } from "./components/routes/fl-justice-router"
 
 function App() {
   return (
    
-    <>
-  
-        <JusticeRouter/>
-    
+    <> 
+      <BrowserRouter>
+       <JusticeRouter/>
+      </BrowserRouter>   
+   
     </>
 
   );

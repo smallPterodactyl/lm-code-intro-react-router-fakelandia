@@ -2,7 +2,7 @@
 const Home : React.FC = () =>
 
     <>
-        Home
+       Home
     </>
 
 export default Home
