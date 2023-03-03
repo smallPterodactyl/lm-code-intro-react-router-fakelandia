@@ -1,4 +1,4 @@
-{
+	{
 	"compilerOptions": {
 		"module": "ES2022",
 		"strict": true,
