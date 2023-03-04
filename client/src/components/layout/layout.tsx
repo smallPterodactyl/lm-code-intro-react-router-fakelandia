@@ -1,8 +1,21 @@
 
-const MainLayout : React.FC = () =>
+const MainLayout : React.FC = () => {
+    
+return (
+    //Move to a navbar component
 
 <>
-    MainLayout
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Misdemeanors</li>
+            <li>Confess</li>
+        </ul>
+    </nav>
 </>
+
+    )
+
+}
 
 export default MainLayout
