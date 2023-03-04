@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom"
 
 const MainLayout : React.FC = () => {
     
@@ -12,6 +13,8 @@ return (
             <li>Confess</li>
         </ul>
     </nav>
+
+    <Outlet/>
 </>
 
     )
