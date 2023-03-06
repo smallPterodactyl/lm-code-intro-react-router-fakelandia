@@ -49,7 +49,7 @@ By default, an `active` class is added to a `<NavLink>` component when it is act
 ```
 
 ## Getting Misdemeanours
-
+  
 To get some misdemeanour data, we have to make a call to the server. We've already seen the API call to get misdemeanours:
 
 👉 `http://localhost:8080/api/misdemeanours/:AMOUNT` where `:AMOUNT` is a number

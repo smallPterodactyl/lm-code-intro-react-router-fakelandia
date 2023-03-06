@@ -4,7 +4,7 @@ import {
 	getMisdemeanours,
 	handleConfession,
 	weaklyValidateConfession,
-} from '../services/midemeanours_service';
+} from '../services/misdemeanours_service';
 
 export function initialiseRoutes(app: Express) {
 	console.log('🏗️  Setting up routers...');
