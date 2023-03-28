@@ -4,6 +4,7 @@ export const MISDEMEANOURS = [
 	'lift',
 	'united',
 ] as const;
+
 export type MisdemeanourKind = (typeof MISDEMEANOURS)[number];
 
 export const JUST_TALK = 'just-talk';
